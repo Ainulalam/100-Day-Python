@@ -1,7 +1,8 @@
+print("Roller Coster Ride There : ")
 
-# x=1230
-# print(type(str(x)))
-# print(type(x))
-name = 'Raju'
-age = 10
-print(f"Hello {name} your age is {age} year Old. ")
+height=int(input("Enter Your Height in cm "))
+
+if (height==120):
+  print("You are allowed for Ride ")
+else:
+  print("you are not allowed")
